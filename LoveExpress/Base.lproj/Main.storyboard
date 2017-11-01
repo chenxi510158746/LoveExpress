@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--告白地点-->
+        <scene sceneID="fg5-4L-RTC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYh-Fp-Mrp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController storyboardIdentifier="BUILDS_CONTROLLER" title="告白地点" id="a3L-UI-fzV" customClass="BuildsTableViewController" customModule="LoveExpress" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="MGt-6F-cNk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="告白地点" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fUs-XV-IQh">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BUILD_CELL" rowHeight="91" id="C2s-Uw-TI7" customClass="BuildTableViewCell" customModule="LoveExpress" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="91"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C2s-Uw-TI7" id="cq8-vJ-4fg">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5NK-cv-hRw">
+                                            <rect key="frame" x="5" y="5" width="80" height="80"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="80" id="RFX-RB-3av"/>
+                                                <constraint firstAttribute="height" constant="80" id="myN-pS-RXr"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="建筑名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FvU-23-Xia">
+                                            <rect key="frame" x="95" y="18" width="272" height="21"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" text="告白距离 1000 米" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqW-Zx-vBt">
+                                            <rect key="frame" x="95" y="47" width="272" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="RqW-Zx-vBt" firstAttribute="leading" secondItem="5NK-cv-hRw" secondAttribute="trailing" constant="10" id="2hU-Ur-sVT"/>
+                                        <constraint firstItem="RqW-Zx-vBt" firstAttribute="top" secondItem="FvU-23-Xia" secondAttribute="bottom" constant="8" id="3Bq-zS-bYZ"/>
+                                        <constraint firstItem="FvU-23-Xia" firstAttribute="leading" secondItem="5NK-cv-hRw" secondAttribute="trailing" constant="10" id="Rkq-pZ-mRw"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="FvU-23-Xia" secondAttribute="trailing" id="eh5-FD-y04"/>
+                                        <constraint firstAttribute="bottom" secondItem="5NK-cv-hRw" secondAttribute="bottom" constant="5" id="ldj-PY-W7D"/>
+                                        <constraint firstItem="5NK-cv-hRw" firstAttribute="leading" secondItem="cq8-vJ-4fg" secondAttribute="leading" constant="5" id="ngB-pd-eAM"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="RqW-Zx-vBt" secondAttribute="trailing" id="q87-pQ-Z7M"/>
+                                        <constraint firstItem="FvU-23-Xia" firstAttribute="top" secondItem="cq8-vJ-4fg" secondAttribute="topMargin" constant="15" id="wTn-e6-aXO"/>
+                                        <constraint firstItem="5NK-cv-hRw" firstAttribute="top" secondItem="cq8-vJ-4fg" secondAttribute="top" constant="5" id="x3t-pf-EVW"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="buildDistance" destination="RqW-Zx-vBt" id="jtF-Ge-ix0"/>
+                                    <outlet property="buildImg" destination="5NK-cv-hRw" id="MAA-is-1IL"/>
+                                    <outlet property="buildName" destination="FvU-23-Xia" id="egl-xm-IDX"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="a3L-UI-fzV" id="UPP-qu-rpU"/>
+                            <outlet property="delegate" destination="a3L-UI-fzV" id="Ock-di-WFJ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="469.60000000000002" y="-168.6656671664168"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BMKMapViewController" customModule="LoveExpress" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-305" y="-144"/>
+        </scene>
+    </scenes>
+</document>

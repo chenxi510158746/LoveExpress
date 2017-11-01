@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1586BC2A1FA6F64700E189D8 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1586BC291FA6F64700E189D8 /* Build.swift */; };
+		1586BC2C1FA7018000E189D8 /* BuildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1586BC2B1FA7018000E189D8 /* BuildTableViewCell.swift */; };
+		1586BC301FA70BB000E189D8 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1586BC271FA6DFC700E189D8 /* ENSideMenu.swift */; };
+		158D295A1FA894A200E81C21 /* SingletonCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158D29591FA894A200E81C21 /* SingletonCoordinate.swift */; };
+		15C7FB791F987B95005A5E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7FB781F987B95005A5E7F /* AppDelegate.swift */; };
+		15C7FB7E1F987B95005A5E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C7FB7C1F987B95005A5E7F /* Main.storyboard */; };
+		15C7FB801F987B95005A5E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C7FB7F1F987B95005A5E7F /* Assets.xcassets */; };
+		15C7FB831F987B95005A5E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C7FB811F987B95005A5E7F /* LaunchScreen.storyboard */; };
+		15C7FB8F1F988387005A5E7F /* BMKMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7FB8E1F988387005A5E7F /* BMKMapViewController.swift */; };
+		15C7FB9B1F98CCDC005A5E7F /* custom_config in Resources */ = {isa = PBXBuildFile; fileRef = 15C7FB981F98CCCE005A5E7F /* custom_config */; };
+		15FC83C61FA31DB6009EF090 /* BuildsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC83C51FA31DB6009EF090 /* BuildsTableViewController.swift */; };
+		971F38F377D324B823DFD64F /* Pods_LoveExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F5BD8D587ECE79BB7B02A4 /* Pods_LoveExpress.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1586BC271FA6DFC700E189D8 /* ENSideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		1586BC291FA6F64700E189D8 /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		1586BC2B1FA7018000E189D8 /* BuildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTableViewCell.swift; sourceTree = "<group>"; };
+		158D29591FA894A200E81C21 /* SingletonCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonCoordinate.swift; sourceTree = "<group>"; };
+		15C7FB751F987B95005A5E7F /* LoveExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C7FB781F987B95005A5E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15C7FB7D1F987B95005A5E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15C7FB7F1F987B95005A5E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15C7FB821F987B95005A5E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15C7FB841F987B95005A5E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C7FB8A1F987D70005A5E7F /* LoveExpress-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoveExpress-Bridging-Header.h"; sourceTree = "<group>"; };
+		15C7FB8E1F988387005A5E7F /* BMKMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMKMapViewController.swift; sourceTree = "<group>"; };
+		15C7FB981F98CCCE005A5E7F /* custom_config */ = {isa = PBXFileReference; lastKnownFileType = text; path = custom_config; sourceTree = "<group>"; };
+		15FC83C51FA31DB6009EF090 /* BuildsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildsTableViewController.swift; sourceTree = "<group>"; };
+		50F5BD8D587ECE79BB7B02A4 /* Pods_LoveExpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveExpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941712723AAD37D354F6FAAB /* Pods-LoveExpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveExpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveExpress/Pods-LoveExpress.debug.xcconfig"; sourceTree = "<group>"; };
+		B4023A732DFE87E5BC00A902 /* Pods-LoveExpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveExpress.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveExpress/Pods-LoveExpress.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C7FB721F987B95005A5E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971F38F377D324B823DFD64F /* Pods_LoveExpress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1586BC261FA6D73E00E189D8 /* ENSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1586BC271FA6DFC700E189D8 /* ENSideMenu.swift */,
+			);
+			path = ENSideMenu;
+			sourceTree = "<group>";
+		};
+		1586BC281FA6F36400E189D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1586BC291FA6F64700E189D8 /* Build.swift */,
+				158D29591FA894A200E81C21 /* SingletonCoordinate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15C7FB6C1F987B95005A5E7F = {
+			isa = PBXGroup;
+			children = (
+				15C7FB771F987B95005A5E7F /* LoveExpress */,
+				15C7FB761F987B95005A5E7F /* Products */,
+				834216AA8F780DDA46A06938 /* Pods */,
+				55E41C452CAEF176AD0243EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15C7FB761F987B95005A5E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C7FB751F987B95005A5E7F /* LoveExpress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C7FB771F987B95005A5E7F /* LoveExpress */ = {
+			isa = PBXGroup;
+			children = (
+				1586BC261FA6D73E00E189D8 /* ENSideMenu */,
+				15C7FB8D1F988304005A5E7F /* Controller */,
+				1586BC281FA6F36400E189D8 /* Model */,
+				15C7FB961F98CCA1005A5E7F /* Resource */,
+				15C7FB781F987B95005A5E7F /* AppDelegate.swift */,
+				15C7FB7C1F987B95005A5E7F /* Main.storyboard */,
+				15C7FB7F1F987B95005A5E7F /* Assets.xcassets */,
+				15C7FB811F987B95005A5E7F /* LaunchScreen.storyboard */,
+				15C7FB841F987B95005A5E7F /* Info.plist */,
+				15C7FB8A1F987D70005A5E7F /* LoveExpress-Bridging-Header.h */,
+			);
+			path = LoveExpress;
+			sourceTree = "<group>";
+		};
+		15C7FB8D1F988304005A5E7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15C7FB8E1F988387005A5E7F /* BMKMapViewController.swift */,
+				15FC83C51FA31DB6009EF090 /* BuildsTableViewController.swift */,
+				1586BC2B1FA7018000E189D8 /* BuildTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15C7FB961F98CCA1005A5E7F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				15C7FB981F98CCCE005A5E7F /* custom_config */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		55E41C452CAEF176AD0243EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F5BD8D587ECE79BB7B02A4 /* Pods_LoveExpress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		834216AA8F780DDA46A06938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				941712723AAD37D354F6FAAB /* Pods-LoveExpress.debug.xcconfig */,
+				B4023A732DFE87E5BC00A902 /* Pods-LoveExpress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C7FB741F987B95005A5E7F /* LoveExpress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C7FB871F987B95005A5E7F /* Build configuration list for PBXNativeTarget "LoveExpress" */;
+			buildPhases = (
+				E5F504DC705F8E1B8AE4F3A7 /* [CP] Check Pods Manifest.lock */,
+				15C7FB711F987B95005A5E7F /* Sources */,
+				15C7FB721F987B95005A5E7F /* Frameworks */,
+				15C7FB731F987B95005A5E7F /* Resources */,
+				946B764DA817D686591CF8B2 /* [CP] Embed Pods Frameworks */,
+				E7F57F136B71BA2B163CC018 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveExpress;
+			productName = LoveExpress;
+			productReference = 15C7FB751F987B95005A5E7F /* LoveExpress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C7FB6D1F987B95005A5E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = chenxi;
+				TargetAttributes = {
+					15C7FB741F987B95005A5E7F = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15C7FB701F987B95005A5E7F /* Build configuration list for PBXProject "LoveExpress" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C7FB6C1F987B95005A5E7F;
+			productRefGroup = 15C7FB761F987B95005A5E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C7FB741F987B95005A5E7F /* LoveExpress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C7FB731F987B95005A5E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C7FB9B1F98CCDC005A5E7F /* custom_config in Resources */,
+				15C7FB831F987B95005A5E7F /* LaunchScreen.storyboard in Resources */,
+				15C7FB801F987B95005A5E7F /* Assets.xcassets in Resources */,
+				15C7FB7E1F987B95005A5E7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		946B764DA817D686591CF8B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveExpress/Pods-LoveExpress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F504DC705F8E1B8AE4F3A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F57F136B71BA2B163CC018 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveExpress/Pods-LoveExpress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C7FB711F987B95005A5E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158D295A1FA894A200E81C21 /* SingletonCoordinate.swift in Sources */,
+				1586BC301FA70BB000E189D8 /* ENSideMenu.swift in Sources */,
+				15C7FB8F1F988387005A5E7F /* BMKMapViewController.swift in Sources */,
+				15C7FB791F987B95005A5E7F /* AppDelegate.swift in Sources */,
+				1586BC2C1FA7018000E189D8 /* BuildTableViewCell.swift in Sources */,
+				1586BC2A1FA6F64700E189D8 /* Build.swift in Sources */,
+				15FC83C61FA31DB6009EF090 /* BuildsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15C7FB7C1F987B95005A5E7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C7FB7D1F987B95005A5E7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15C7FB811F987B95005A5E7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C7FB821F987B95005A5E7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15C7FB851F987B95005A5E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15C7FB861F987B95005A5E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15C7FB881F987B95005A5E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941712723AAD37D354F6FAAB /* Pods-LoveExpress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTWNV925HH;
+				INFOPLIST_FILE = LoveExpress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baize.love.express;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoveExpress/LoveExpress-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15C7FB891F987B95005A5E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4023A732DFE87E5BC00A902 /* Pods-LoveExpress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTWNV925HH;
+				INFOPLIST_FILE = LoveExpress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baize.love.express;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoveExpress/LoveExpress-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C7FB701F987B95005A5E7F /* Build configuration list for PBXProject "LoveExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C7FB851F987B95005A5E7F /* Debug */,
+				15C7FB861F987B95005A5E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C7FB871F987B95005A5E7F /* Build configuration list for PBXNativeTarget "LoveExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C7FB881F987B95005A5E7F /* Debug */,
+				15C7FB891F987B95005A5E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C7FB6D1F987B95005A5E7F /* Project object */;
+}

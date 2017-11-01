@@ -1,0 +1,15 @@
+PODS:
+  - BaiduMapKit (3.4.2)
+  - PopupDialog (0.6.0)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - PopupDialog (~> 0.6)
+
+SPEC CHECKSUMS:
+  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  PopupDialog: 687af43af0f7b89948cd411ac701865f931bd6dc
+
+PODFILE CHECKSUM: 35e169585699a85a420c350e1845658cc934a1b5
+
+COCOAPODS: 1.2.1
