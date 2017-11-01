@@ -206,7 +206,6 @@ class BMKMapViewController: UIViewController, BMKLocationServiceDelegate, BMKMap
         let popImg = imageScaleToSize(image: buildImg, size: CGSize(width: 985, height: 1000))
         
         //计算距离
-        //let attrStr = getDistanceAttributedString(type: 1, buildCoord: view.annotation.coordinate)
         let singleCoor = SingletonCoordinate.shareInstance
         let attrStr = singleCoor.getDistanceAttributedString(type: 1, buildCoord: view.annotation.coordinate)
         
@@ -278,9 +277,13 @@ class BMKMapViewController: UIViewController, BMKLocationServiceDelegate, BMKMap
     func sideMenuWillOpen() {
         
         UIView.animate(withDuration: 0.6) {
-            self.moreBtn?.frame = CGRect(x: self.view.bounds.size.width - 255, y: 25, width: 35, height: 35)
-            self.moreBtn?.setImage(#imageLiteral(resourceName: "hideMore"), for: .normal)
+            //self.moreBtn?.frame = CGRect(x: self.view.bounds.size.width - 255, y: 25, width: 35, height: 35)
+            //self.moreBtn?.setImage(#imageLiteral(resourceName: "hideMore"), for: .normal)
+            
+            self.moreBtn?.frame = CGRect(x: self.view.bounds.size.width - 265, y: 20, width: 50, height: 50)
+            self.moreBtn?.setImage(#imageLiteral(resourceName: "love_more_hide"), for: .normal)
         }
+        
         
     }
     
